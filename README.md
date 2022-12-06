@@ -49,6 +49,7 @@ Sur l'API frontend :
 ⚠️ Le conteneur Frontend doit disposer de deux variables d'environnement contenant le nom d'hôte à utiliser pour communiquer avec l'autre conteneur, soit les variables `API_BACKEND_URL` et `API_BACKEND_PORT`. Ces variables d'environement sont utilisées par l'applicatif et doivent absolument être renseignées.
 </aside>
 
+
 Sur l'API backend :
 
 - [http://127.0.0.1:8001/](http://127.0.0.1:8001/) : Cette requête devrait retourner le résultat `{"body": "Je suis une r\u00e9ponse du backend"}`.
