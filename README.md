@@ -8,7 +8,7 @@ Il vous sera demandé de construire deux conteneurs communiquant entre eux. Ces 
 
 # Les API (Application Programming Interface)
 
-Les applications sont publiées sur le dépôt Github [https://github.com/7ric/Docker_API](https://github.com/7ric/Docker_API), dans les sous dossiers de ce dépôt :
+Les applications sont publiées sur ce dépôt Github dans les sous dossiers de ce dépôt :
 
 - **API Frontend** : `api-frontend`
 - **API Backend** : `api-backend`
@@ -54,7 +54,6 @@ Sur l'API backnd :
 
 <aside>
 ⚠️ Attention, le conteneur Backend devra être lancé avant le frontend lors d'un `docker-compose up`.
-
 </aside>
 
 # Rendu
