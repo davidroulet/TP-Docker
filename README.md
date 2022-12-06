@@ -58,7 +58,7 @@ Sur l'API backend :
 
 # Rendu
 
-Vous devrez faire un fork du dépôt Github afin de récupérer les deux applicatifs et de pouvoir envoyer vos modifications sur votre dépôt. Vous devrez mettre à disposition deux `Dockerfile` (un par application) ainsi qu'un fichier `docker-compose.yaml` pour le déploiement automatique des deux applicatifs. Vous devriez avoir une arborescence telle que :
+Vous devrez faire un fork du dépôt `Github` afin de récupérer les deux applications et de pouvoir envoyer vos modifications sur votre dépôt. Vous devrez mettre à disposition deux `Dockerfile` (un par application) ainsi qu'un fichier `docker-compose.yaml` pour le déploiement automatique des deux applications. Vous devriez avoir une arborescence telle que :
 
 ```python
 .
