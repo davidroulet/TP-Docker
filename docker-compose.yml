@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+
+ 
+  back: # Description du conteneur
+    image: kidji/back
+    networks:
+      TP:
+        ipv4_address: 11.10.0.2
+
+  front: # Description du conteneur
+
+    image: front
+    networks:
+      TP:
+        ipv4_address: 11.10.0.3
+    environment:
+     - API_BACKEND_URL=11.10.0.2
+     - API_BACKEND_PORT=8001
+networks:
+  TP:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 11.10.0.0/8
+
+volumes:
+  data:
