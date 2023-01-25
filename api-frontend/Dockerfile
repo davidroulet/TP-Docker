@@ -6,6 +6,6 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install requests flask
-COPY . /data
-WORKDIR /data
+COPY . /front
+WORKDIR /front
 CMD ["python3", "api.py"]

@@ -4,14 +4,14 @@ services:
 
  
   back: # Description du conteneur
-    image: kidji/back
+    image: kidji/back:latest
     networks:
       TP:
         ipv4_address: 11.10.0.2
 
   front: # Description du conteneur
 
-    image: front
+    image: kidji/front:latest
     networks:
       TP:
         ipv4_address: 11.10.0.3
